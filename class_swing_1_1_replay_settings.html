@@ -24,8 +24,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Swing Replay
-   &#160;<span id="projectnumber">deac3fef5ae4a068b93c918847d3d9fa6719aec0</span>
+   &#160;<span id="projectnumber">v0.7.0</span>
    </div>
+   <div id="projectbrief">Swing Replay Engine API Reference Manual</div>
   </td>
  </tr>
  </tbody>
@@ -39,6 +40,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Packages</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -99,6 +101,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a6a1123093380b2acc00ddb18ed35f855"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84e631b15230f31486dfd46d9d625ea9"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_swing_1_1_replay_settings.html#a84e631b15230f31486dfd46d9d625ea9">DeregisterAudioClip</a> (AudioClip audioClip)</td></tr>
 <tr class="separator:a84e631b15230f31486dfd46d9d625ea9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a704e6bd67ea709014b50a335a18848ae"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_swing_1_1_replay_settings.html#a704e6bd67ea709014b50a335a18848ae">RegisterSceneRecorder</a> (ISceneRecorder sceneRecorder)</td></tr>
+<tr class="separator:a704e6bd67ea709014b50a335a18848ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99ba759baa7452b57cec077871879521"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_swing_1_1_replay_settings.html#a99ba759baa7452b57cec077871879521">DeregisterSceneRecorder</a> (ISceneRecorder sceneRecorder)</td></tr>
+<tr class="separator:a99ba759baa7452b57cec077871879521"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Replay settings </p>
@@ -132,6 +138,33 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><em>true</em> if successful, <em>false</em> if errorneous </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a99ba759baa7452b57cec077871879521"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Swing.ReplaySettings.DeregisterSceneRecorder </td>
+          <td>(</td>
+          <td class="paramtype">ISceneRecorder&#160;</td>
+          <td class="paramname"><em>sceneRecorder</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Deregister a custom scene recorder</p>
+<p>After deregistered, the default scene recorder will handle the sceneplay.</p>
+<p>@ param sceneRecorder Scene recorder to deregister </p>
 
 </div>
 </div>
@@ -175,6 +208,38 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><em>true</em> if successful, <em>false</em> if errorneous </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a704e6bd67ea709014b50a335a18848ae"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Swing.ReplaySettings.RegisterSceneRecorder </td>
+          <td>(</td>
+          <td class="paramtype">ISceneRecorder&#160;</td>
+          <td class="paramname"><em>sceneRecorder</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Register a custom scene recorder</p>
+<p>The registered custom scene recorder will handle the sceneplay.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sceneRecorder</td><td>Scene recorder to register </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

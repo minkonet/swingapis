@@ -6,5 +6,6 @@ var searchData=
   ['listreplayscallback',['ListReplaysCallback',['../class_swing_1_1_replayer.html#abe13d904e53f60a95ef31e0474b406f1',1,'Swing::Replayer']]],
   ['loadreplay',['LoadReplay',['../class_swing_1_1_replayer.html#a8c9ee6548dcd01c3703f409bd0fa2598',1,'Swing::Replayer']]],
   ['loadreplaycallback',['LoadReplayCallback',['../class_swing_1_1_replayer.html#a2d771f044b5e165810d80f644ad268ec',1,'Swing::Replayer']]],
+  ['loadscene',['LoadScene',['../interface_swing_1_1_i_scene_recorder.html#ab831aee8877e838cc3c5208483df5be6',1,'Swing::ISceneRecorder']]],
   ['local',['Local',['../namespace_swing.html#ad507117e0ab0c37b0e043c2e807f2dc0a509820290d57f333403f490dde7316f4',1,'Swing']]]
 ];

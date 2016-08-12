@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['replay',['Replay',['../class_swing_1_1_replay.html',1,'Swing']]],
-  ['replaycontroller',['ReplayController',['../class_swing_1_1_replay_engine_1_1_replay_controller.html',1,'Swing::ReplayEngine']]],
-  ['replayer',['Replayer',['../class_swing_1_1_replayer.html',1,'Swing']]],
-  ['replaysettings',['ReplaySettings',['../class_swing_1_1_replay_settings.html',1,'Swing']]]
+  ['iscenerecorder',['ISceneRecorder',['../interface_swing_1_1_i_scene_recorder.html',1,'Swing']]]
 ];

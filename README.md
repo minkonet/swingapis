@@ -16,5 +16,6 @@
 
 * For multiple input directory, set them in the _Expert tab > Input > INPUT_ of Doxygen GUI frontend.
 * To set the HTML output directory to the project root not to the html/, set '.' in the _Expert tab > HTML > HTML_OUTPUT_.
-
-
+* To edit the main page, _mainpage.md_ is added. See the following doxygen configuration items.
+** _Expert tab > Input > Input_
+** _Expert tab > Input > USE_MDFILE_AS_MAINPAGE_

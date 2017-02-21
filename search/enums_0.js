@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['replayoptions',['ReplayOptions',['../namespace_swing_1_1_replay_engine.html#a120286c43697e4ab74575eec54a00316',1,'Swing::ReplayEngine']]],
-  ['replaystore',['ReplayStore',['../namespace_swing.html#ad507117e0ab0c37b0e043c2e807f2dc0',1,'Swing']]]
+  ['options',['Options',['../class_swing_1_1_game_object_recorder.html#ad235bd0b2b498261ce7c2eee88c337f6',1,'Swing::GameObjectRecorder']]]
 ];

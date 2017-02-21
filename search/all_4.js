@@ -1,5 +1,19 @@
 var searchData=
 [
-  ['endtime',['endTime',['../class_swing_1_1_replayer.html#ad5b1df9552aaf9f6b45d64a7481f4a95',1,'Swing::Replayer']]],
-  ['everything',['Everything',['../namespace_swing_1_1_replay_engine.html#a120286c43697e4ab74575eec54a00316a709468af25e91284821d1bdbfdded24c',1,'Swing::ReplayEngine']]]
+  ['eject',['Eject',['../interface_swing_1_1_i_spectator.html#a9b7045976dcce4ab6a91477ebb6172e0',1,'Swing.ISpectator.Eject()'],['../class_swing_1_1_spectator.html#a872b0ba665b29addb9789c2b248a31e2',1,'Swing.Spectator.Eject()']]],
+  ['element',['Element',['../class_swing_1_1_replay_file_1_1_element.html',1,'Swing::ReplayFile']]],
+  ['elementwisecolor32sampler',['ElementwiseColor32Sampler',['../class_swing_1_1_elementwise_color32_sampler.html',1,'Swing']]],
+  ['elementwisecolorsampler',['ElementwiseColorSampler',['../class_swing_1_1_elementwise_color_sampler.html',1,'Swing']]],
+  ['elementwisevector2sampler',['ElementwiseVector2Sampler',['../class_swing_1_1_elementwise_vector2_sampler.html',1,'Swing']]],
+  ['elementwisevector3sampler',['ElementwiseVector3Sampler',['../class_swing_1_1_elementwise_vector3_sampler.html',1,'Swing']]],
+  ['elementwisevector4sampler',['ElementwiseVector4Sampler',['../class_swing_1_1_elementwise_vector4_sampler.html',1,'Swing']]],
+  ['endtime',['endTime',['../class_swing_1_1_replay.html#abbde61e0d767346098622e7ca365631f',1,'Swing::Replay']]],
+  ['epause',['EPause',['../class_swing_1_1_audio_recorder_1_1_e_pause.html',1,'Swing::AudioRecorder']]],
+  ['eplay',['EPlay',['../class_swing_1_1_audio_recorder_1_1_e_play.html',1,'Swing::AudioRecorder']]],
+  ['eplayclipat',['EPlayClipAt',['../class_swing_1_1_audio_recorder_1_1_e_play_clip_at.html',1,'Swing::AudioRecorder']]],
+  ['eplaydelayed',['EPlayDelayed',['../class_swing_1_1_audio_recorder_1_1_e_play_delayed.html',1,'Swing::AudioRecorder']]],
+  ['eplayoneshot',['EPlayOneShot',['../class_swing_1_1_audio_recorder_1_1_e_play_one_shot.html',1,'Swing::AudioRecorder']]],
+  ['estop',['EStop',['../class_swing_1_1_audio_recorder_1_1_e_stop.html',1,'Swing::AudioRecorder']]],
+  ['evaluate',['Evaluate',['../interface_swing_1_1_i_replay_sampler.html#a3d616a9169c6ecf3721395a6c7b61f37',1,'Swing::IReplaySampler']]],
+  ['event',['Event',['../class_swing_1_1_audio_recorder_1_1_event.html',1,'Swing::AudioRecorder']]]
 ];

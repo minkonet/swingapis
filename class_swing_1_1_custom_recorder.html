@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.10"/>
-<title>Swing API: Swing.CustomRecorder&lt; T &gt; Class Template Reference</title>
+<title>Swing: Swing.CustomRecorder&lt; T &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,10 +23,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Swing API
-   &#160;<span id="projectnumber">v0.9.0</span>
+   <div id="projectname">Swing
+   &#160;<span id="projectnumber">1.0</span>
    </div>
-   <div id="projectbrief">Swing API Reference Manual</div>
   </td>
  </tr>
  </tbody>
@@ -40,6 +39,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Packages</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -62,6 +62,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -85,119 +87,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div><!-- top -->
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="class_swing_1_1_custom_recorder-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Swing.CustomRecorder&lt; T &gt; Class Template Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">Swing.CustomRecorder&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Inherits IRecorder.</p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ac8799b380077f724ee2bc69e1672635f"><td class="memItemLeft" align="right" valign="top">abstract T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_swing_1_1_custom_recorder.html#ac8799b380077f724ee2bc69e1672635f">GetCurrent</a> ()</td></tr>
-<tr class="separator:ac8799b380077f724ee2bc69e1672635f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1306a84707c845d3cfc40dd00536c6c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_swing_1_1_custom_recorder.html#a1306a84707c845d3cfc40dd00536c6c9">Record</a> (T data)</td></tr>
-<tr class="separator:a1306a84707c845d3cfc40dd00536c6c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49ecdb46786a370cdc643a3f4e0553e7"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_swing_1_1_custom_recorder.html#a49ecdb46786a370cdc643a3f4e0553e7">Playback</a> (float recordTime, T recordData, bool isAutoRecorded)</td></tr>
-<tr class="separator:a49ecdb46786a370cdc643a3f4e0553e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Abstract custom recorder</p>
-<p>A developer may inherit this class to record and playck a replay target. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ac8799b380077f724ee2bc69e1672635f"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">abstract T <a class="el" href="class_swing_1_1_custom_recorder.html">Swing.CustomRecorder</a>&lt; T &gt;.GetCurrent </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Return the current custom data </p>
-
-</div>
-</div>
-<a class="anchor" id="a49ecdb46786a370cdc643a3f4e0553e7"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">abstract void <a class="el" href="class_swing_1_1_custom_recorder.html">Swing.CustomRecorder</a>&lt; T &gt;.Playback </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>recordTime</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>recordData</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>isAutoRecorded</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Playback the given custom data</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">recordTime</td><td>Recording time of the <em>recordData</em> </td></tr>
-    <tr><td class="paramname">recordData</td><td>Custom data to playback </td></tr>
-    <tr><td class="paramname">isAutoRecorded</td><td><em>true</em> if the <em>recordData</em> is recorded by Replay Engine. <em>false</em> if it is recorded by a devloper calling the <em>Record</em> method </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="a1306a84707c845d3cfc40dd00536c6c9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="class_swing_1_1_custom_recorder.html">Swing.CustomRecorder</a>&lt; T &gt;.Record </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>data</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Call this method to record the current custom data </p>
-
-</div>
-</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>D:/bitbucket/Spectator/SS/Assets/Spectator/Recorders/CustomRecorder-IRecorder.cs</li>
+</ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

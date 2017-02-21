@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['deregisteraudioclip',['DeregisterAudioClip',['../class_swing_1_1_replay_settings.html#a84e631b15230f31486dfd46d9d625ea9',1,'Swing::ReplaySettings']]],
-  ['deregisterscenerecorder',['DeregisterSceneRecorder',['../class_swing_1_1_replay_settings.html#a99ba759baa7452b57cec077871879521',1,'Swing::ReplaySettings']]]
+  ['capture',['Capture',['../interface_swing_1_1_i_replay_sampler.html#a45f73205a1232c78b95fad2309be3a88',1,'Swing::IReplaySampler']]]
 ];

@@ -1,6 +1,25 @@
 var searchData=
 [
-  ['deregisteraudioclip',['DeregisterAudioClip',['../class_swing_1_1_replay_settings.html#a84e631b15230f31486dfd46d9d625ea9',1,'Swing::ReplaySettings']]],
-  ['deregisterscenerecorder',['DeregisterSceneRecorder',['../class_swing_1_1_replay_settings.html#a99ba759baa7452b57cec077871879521',1,'Swing::ReplaySettings']]],
-  ['duration',['duration',['../class_swing_1_1_replay.html#a13b11e94fdbfca91613f5fa3ef1e463d',1,'Swing::Replay']]]
+  ['data',['Data',['../class_swing_1_1_camera_recorder_1_1_data.html',1,'Swing::CameraRecorder']]],
+  ['data',['Data',['../class_swing_1_1_legacy_animation_recorder_1_1_data.html',1,'Swing::LegacyAnimationRecorder']]],
+  ['data',['Data',['../class_swing_1_1_u_i_text_recorder_1_1_data.html',1,'Swing::UITextRecorder']]],
+  ['data',['Data',['../class_swing_1_1_animator_recorder_1_1_data.html',1,'Swing::AnimatorRecorder']]],
+  ['data',['Data',['../class_swing_1_1_audio_recorder_1_1_data.html',1,'Swing::AudioRecorder']]],
+  ['data',['Data',['../class_swing_1_1_play_clip_at_recorder_1_1_data.html',1,'Swing::PlayClipAtRecorder']]],
+  ['data',['Data',['../class_swing_1_1_rect_transform_recorder_1_1_data.html',1,'Swing::RectTransformRecorder']]],
+  ['data',['Data',['../class_swing_1_1_project_settings_recorder_1_1_data.html',1,'Swing::ProjectSettingsRecorder']]],
+  ['data',['Data',['../class_swing_1_1_member_recorder_1_1_data.html',1,'Swing::MemberRecorder']]],
+  ['defaultcheckerimpl',['DefaultCheckerImpl',['../class_swing_1_1_float_sampler_1_1_default_checker_impl.html',1,'Swing::FloatSampler']]],
+  ['defaultcheckerimpl',['DefaultCheckerImpl',['../class_swing_1_1_double_sampler_1_1_default_checker_impl.html',1,'Swing::DoubleSampler']]],
+  ['defaultcheckerimpl',['DefaultCheckerImpl',['../class_swing_1_1_quaternion_sampler_1_1_default_checker_impl.html',1,'Swing::QuaternionSampler']]],
+  ['defaultcheckerimpl',['DefaultCheckerImpl',['../class_swing_1_1_vector3_sampler_1_1_default_checker_impl.html',1,'Swing::Vector3Sampler']]],
+  ['defaultscenerecorder',['DefaultSceneRecorder',['../class_swing_1_1_default_scene_recorder.html',1,'Swing']]],
+  ['description',['Description',['../class_swing_1_1_replay_1_1_description.html',1,'Swing::Replay']]],
+  ['disablecomponent',['DisableComponent',['../class_swing_1_1_components_settings_1_1_disable_component.html',1,'Swing::ComponentsSettings']]],
+  ['disableingameplay',['DisableInGameplay',['../class_swing_1_1_game_object_configurator.html#a178063d96e216bb3b041754ab101d3af',1,'Swing::GameObjectConfigurator']]],
+  ['disableinplayback',['DisableInPlayback',['../class_swing_1_1_game_object_configurator.html#ae3a474cb7c56d1a3c4e5aadd51fd486b',1,'Swing::GameObjectConfigurator']]],
+  ['doublesampler',['DoubleSampler',['../class_swing_1_1_double_sampler.html',1,'Swing']]],
+  ['download',['Download',['../interface_swing_1_1_i_spectator.html#a6609d997948edebe2ced3582100a3d75',1,'Swing.ISpectator.Download()'],['../class_swing_1_1_spectator.html#acdb70d4e298bacb5d0a4d9bf2f2565d5',1,'Swing.Spectator.Download()']]],
+  ['downloadjob',['DownloadJob',['../class_swing_1_1_service_manager_1_1_download_job.html',1,'Swing::ServiceManager']]],
+  ['downloadreplayfile',['DownloadReplayFile',['../class_swing_1_1_service_manager.html#a8ebd339973191c6b87c344face107f26',1,'Swing::ServiceManager']]]
 ];

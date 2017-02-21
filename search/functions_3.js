@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['getcurrent',['GetCurrent',['../class_swing_1_1_custom_recorder.html#ac8799b380077f724ee2bc69e1672635f',1,'Swing::CustomRecorder']]],
-  ['getcurrentscene',['GetCurrentScene',['../interface_swing_1_1_i_scene_recorder.html#ab5f049c561c3fcbad81c5c09ff74564f',1,'Swing::ISceneRecorder']]],
-  ['getinstance',['GetInstance',['../class_swing_1_1_replayer.html#af7cf215d691fc0649b6afc3ce5ee0af9',1,'Swing::Replayer']]]
+  ['download',['Download',['../interface_swing_1_1_i_spectator.html#a6609d997948edebe2ced3582100a3d75',1,'Swing.ISpectator.Download()'],['../class_swing_1_1_spectator.html#acdb70d4e298bacb5d0a4d9bf2f2565d5',1,'Swing.Spectator.Download()']]],
+  ['downloadreplayfile',['DownloadReplayFile',['../class_swing_1_1_service_manager.html#a8ebd339973191c6b87c344face107f26',1,'Swing::ServiceManager']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['playbackspeed',['playbackSpeed',['../class_swing_1_1_replayer.html#a6dbf6bcf979c489f920c146595e3f997',1,'Swing::Replayer']]]
+  ['endtime',['endTime',['../class_swing_1_1_replay.html#abbde61e0d767346098622e7ca365631f',1,'Swing::Replay']]]
 ];

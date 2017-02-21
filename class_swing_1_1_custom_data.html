@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.10"/>
-<title>Swing API: Swing.CustomData Class Reference</title>
+<title>Swing: Swing.CustomData Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,10 +23,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Swing API
-   &#160;<span id="projectnumber">v0.9.0</span>
+   <div id="projectname">Swing
+   &#160;<span id="projectnumber">1.0</span>
    </div>
-   <div id="projectbrief">Swing API Reference Manual</div>
   </td>
  </tr>
  </tbody>
@@ -40,6 +39,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Packages</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -62,6 +62,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -92,21 +94,28 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">Swing.CustomData Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Inherits IBinarySerializable.</p>
+<div class="dynheader">
+Inheritance diagram for Swing.CustomData:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_swing_1_1_custom_data.png" usemap="#Swing.CustomData_map" alt=""/>
+  <map id="Swing.CustomData_map" name="Swing.CustomData_map">
+<area href="class_swing_1_1_ragdoll_recorder_1_1_state_data.html" alt="Swing.RagdollRecorder.StateData" shape="rect" coords="0,56,203,80"/>
+</map>
+ </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab2a6c50ee3502414ded1a248f846d5dc"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_swing_1_1_custom_data.html#ab2a6c50ee3502414ded1a248f846d5dc">Write</a> (System.IO.BinaryWriter bw)</td></tr>
 <tr class="separator:ab2a6c50ee3502414ded1a248f846d5dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b66ca8f31f9efedc97e91e2875413b8"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_swing_1_1_custom_data.html#a4b66ca8f31f9efedc97e91e2875413b8">Read</a> (System.IO.BinaryReader br)</td></tr>
-<tr class="separator:a4b66ca8f31f9efedc97e91e2875413b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb2bc24ad557897719786e96266d18db"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_swing_1_1_custom_data.html#aeb2bc24ad557897719786e96266d18db">Read</a> (string gameVersion, System.IO.BinaryReader br)</td></tr>
+<tr class="separator:aeb2bc24ad557897719786e96266d18db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Abstract custom data</p>
 <p>Snapshot of replay data at a point in time. The whole replay data is a time series of the snapshots. A developer may inherit this class to define the schema of custom replay data and IO methods to a replay media (a replay file or a broadcast stream). </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a4b66ca8f31f9efedc97e91e2875413b8"></a>
+<a class="anchor" id="aeb2bc24ad557897719786e96266d18db"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -116,9 +125,19 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">abstract void Swing.CustomData.Read </td>
           <td>(</td>
-          <td class="paramtype">System.IO.BinaryReader&#160;</td>
-          <td class="paramname"><em>br</em></td><td>)</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>gameVersion</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">System.IO.BinaryReader&#160;</td>
+          <td class="paramname"><em>br</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -156,6 +175,9 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>D:/bitbucket/Spectator/SS/Assets/Spectator/Recorders/CustomRecorder.cs</li>
+</ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
